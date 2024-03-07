@@ -1,0 +1,88 @@
+.main-elevator {
+  background-color: white;
+  height: 500px;
+  width: 196px;
+  position: relative;
+  margin: 0 80px 0 80px;
+
+  .inside-main-elevator1 {
+    background-color: #ff8228;
+    height: 400px;
+    width: 49%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    .elevator-input {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      height: 20px;
+      width: 40px;
+    }
+  }
+  .inside-main-elevator2 {
+    background-color: #0d8828;
+    height: 400px;
+    width: 49%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .screen {
+    position: absolute;
+    bottom: 0;
+    background-color: #00023d;
+    height: 100px;
+    width: 196px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .screen-box {
+      background-color: #2b0061;
+      height: 70px;
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 55px;
+      color: rgb(245, 25, 25);
+      font-weight: 500;
+      margin-right: 5px;
+    }
+    .directions {
+      height: 60px;
+      width: 60%;
+      display: inline-flex;
+      .up {
+        background-color: white;
+        height: 60px;
+        width: 50%;
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .down {
+        background-color: white;
+        height: 60px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+}
+.main-container {
+  height: 500px;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .floor-screen {
+    height: 45px;
+    width: 80px;
+    font-size: 22px;
+  }
+}
