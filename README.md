@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Elevator Simulation System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simulation of an elevator system built using React. It demonstrates the functionality of multiple elevators operating across different floors.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Multiple Elevators**: The system consists of three elevators, each capable of moving independently between floors.
+- **Up and Down Movement**: Users can trigger the elevators to move either up or down to reach desired floors.
+- **Destination Selection**: Users can input their desired destination floor for each elevator.
+- **Disabled Input**: Input fields for destination selection are disabled when the elevator is not on the current floor to prevent invalid selections.
+- **Realistic Time Simulation**: The time taken to traverse each floor is simulated to be 2 seconds.
 
-### `npm start`
+## How to Use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Input Floor Number**: Enter the desired floor number in the input field labeled "Floor". The elevator system will consider this as the destination floor for the selected elevator.
+2. **Select Elevator**: For each elevator, input the desired destination floor in the respective input field.
+3. **Trigger Movement**: Use the arrow buttons (up and down) to trigger the movement of the elevator. Clicking on the up arrow will move the elevator up, and clicking on the down arrow will move it down.
+4. **Observing Elevator Position**: The current position of each elevator is displayed on the screen.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+`git clone <repository_url>`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm install`
 
-### `npm run eject`
+4. Start the development server:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open the application in your browser:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Technologies Used
 
-## Learn More
+- JavaScript
+- React
+- HTML
+- CSS
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Credits
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is created by Mohammad Nazim Qureshi.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
